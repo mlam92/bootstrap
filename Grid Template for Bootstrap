@@ -10,12 +10,16 @@
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
     <title>Grid Template for Bootstrap</title>
+	
+	<link href="C:\Users\Estudiante\Downloads\bootstrap-3.3.4-dist.zip\bootstrap-3.3.4-dist\css\style.css" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap core CSS -->
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="http://getbootstrap.com/examples/grid/grid.css" rel="stylesheet">
+	
+	
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->

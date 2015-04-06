@@ -36,8 +36,8 @@
     <div class="container">
 
       <div class="page-header">
-        <div class="row">
-        <div class="col-xs-6">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+        
 		<div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -47,9 +47,9 @@
           </button>
           <a class="navbar-brand" href="http://getbootstrap.com/examples/starter-template/#">UNA Web ALfa</a>
         </div>
-		</div>
-        <div class="col-xs-6">
-			<div id="navbar" class="collapse navbar-collapse">
+		
+      
+		<div id="navbar" class="collapse navbar-collapse">
           <class="navbar navbar-default">
           <ul class="nav nav-tabs">
             <li><a href="http://getbootstrap.com/examples/starter-template/#">Home</a></li>
@@ -58,42 +58,49 @@
             <li><a href="http://getbootstrap.com/examples/starter-template/#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
-		</div>
-		</div>
-      </div>
-
-   
-      <div class="row">
-        <div class="col-xs-12">
-			<img src="C:\Users\Estudiante\Downloads\android.jpg" class="img-responsive" alt="Responsive image">
-		</div>
-      </div>
-      
-
-      
-      
-      <div class="row">
 		
-        <div class="col-md-6"><h3>Main Section</h3><p>Reset offsets, pushes, and pulls at specific breakpoints.</p></div>
-        <div class="col-md-6"><h4>Sub-Section</h4><p>Reset offsets, pushes, and pulls at specific breakpoints.</p></div>
+		</nav>
       </div>
-      
-	  
-	 <div class="col-xs-12"> 
-		<div class="footer">
-		
-		<div id="navbar" class="collapse navbar-collapse">
+	
+      <div class="row page stock-img">
+		<img src="stock.jpg" alt="Responsive image">
+	  </div>
+     
+      <div class="row">
+        <div class="col-md-8"><h3>Main Section</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend varius interdum. Sed eu leo quam. Donec nisi sapien, condimentum at aliquet nec, feugiat non urna. Nam eu suscipit tellus. Morbi at libero interdum, vulputate dolor at, consectetur arcu. Duis sem ante, mattis maximus ullamcorper id, placerat tempor mi. Mauris interdum, justo eget pharetra sagittis, leo augue aliquam leo, sed vestibulum tortor turpis porta arcu. Nulla facilisi. Integer consectetur, leo eu consectetur finibus, erat nibh vehicula orci, vel efficitur diam augue in ex. In iaculis arcu a risus dignissim, vel sagittis lorem vehicula. Curabitur pulvinar nunc sit amet felis euismod, vel tempus ligula fermentum. In at dignissim enim. Etiam tempus tristique eros nec condimentum.</p>
+			<p>
+              Nulla fermentum elementum mollis. Donec tristique facilisis libero posuere finibus. Nam in convallis nulla. Pellentesque mattis tellus egestas ornare sodales. Curabitur efficitur libero in dolor placerat pretium malesuada non nibh. Nulla sed metus magna. Praesent eu tellus a massa luctus mattis id ac felis. Duis dignissim eleifend erat, et ultrices erat ornare et. Fusce sit amet eros in magna tempus porta sed sit amet justo. Fusce sed tortor ut ligula gravida efficitur sed non elit. Aliquam viverra interdum lacinia. Praesent vitae maximus ipsum.
+            </p>
+		</div>
+        <div class="col-md-4">
+			<h3>Sub-Section</h3>
+            <p class="box-model">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend varius interdum. Sed eu leo quam. Donec nisi sapien, condimentum at aliquet nec, feugiat non urna. Nam eu suscipit tellus.
+            </p>
+            <h4>Sub-Sub-Section</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend varius interdum. Sed eu leo quam. Donec nisi sapien, condimentum at aliquet nec, feugiat non urna. Nam eu suscipit tellus.
+            </p>
+            <h5>Sub-Sub-Sub-Section</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend varius interdum. Sed eu leo quam. Donec nisi sapien, condimentum at aliquet nec, feugiat non urna. Nam eu suscipit tellus.
+            </p>
+		</div>
+      </div>
+       
+	<div class="row page page-footer">
+		<div class="nav-footer">
 			  <ul class="nav nav-tabs">
 				<li><a href="http://getbootstrap.com/examples/starter-template/#">Home</a></li>
 				<li><a href="http://getbootstrap.com/examples/starter-template/#about">About</a></li>
 				<li><a href="http://getbootstrap.com/examples/starter-template/#courses">Courses</a></li>
 				<li><a href="http://getbootstrap.com/examples/starter-template/#contact">Contact</a></li>
 			  </ul>
-			  <small>Copyright © 2015. Curso de Programacion Web</small>
-        </div><!--/.nav-collapse -->
-		
-		</div>
+			  
+		</div><!--/.nav-collapse -->
+			<span>Copyright © 2015. Curso de Programacion Web</span>
 	</div>
+	
 
     </div> <!-- /container -->
 
